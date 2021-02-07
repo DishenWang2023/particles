@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dishen Wang - Swarms</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+  <script src="vector.js"></script>
+  <script src="gamma.js"></script>
+  <script src="delta.js"></script>
+  <script src="zeta.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+
+  <div id="main-column">
+    <h1>Particles</h1>
+    <div id="main">
+
+    </div>
+    <div id="controls">
+      <button onclick="paused=!paused">pause</button>
+      <button onclick="FLAGS.drawGammaDebug=!FLAGS.drawGammaDebug">gammaDebug</button>
+      <button onclick="FLAGS.drawDeltaDebug=!FLAGS.drawDeltaDebug">deltaDebug</button>
+      <button onclick="FLAGS.drawZetaDebug=!FLAGS.drawZetaDebug">zetaDebug</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
