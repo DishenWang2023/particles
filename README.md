@@ -6,12 +6,14 @@
 * Zeta: This particle follows a force field visible from the debug draw and will repel from each other if close proximity.
 
 # UI
+
 **Buttons**
 
 pause: stops updating particles.
 gammaDebug: displays Gamma's force vectors and velocity vectors.
 deltaDebug: displays Delta's force vectors and velocity vectors.
 zetaDebug: displays Zeta's force vectors, velocity vectors and force field.
+
 **Sliders**
 
 gammaOrbitalSize: The range which Gamma will enter Zeta's orbit.
